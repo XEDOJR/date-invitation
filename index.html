@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#190d19">
+  <meta name="description" content="Личное приглашение на свидание в субботу, 31 октября, в 17:00.">
+  <title>У нас свидание ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#190d19;--wine:#401b35;--pink:#ff8fb3;--rose:#ffc5d6;--cream:#fff5ed;--muted:#d6b9c8;--line:rgba(255,225,237,.18)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse at 12% 10%,rgba(143,53,105,.28),transparent 38%),radial-gradient(ellipse at 92% 72%,rgba(218,91,133,.17),transparent 35%),linear-gradient(145deg,#190d19 0%,#261126 55%,#160d19 100%)}
+    .grain{position:fixed;inset:0;pointer-events:none;opacity:.055;z-index:1;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E")}
+    .wrap{position:relative;z-index:2;width:min(1080px,calc(100% - 36px));margin:auto}
+    header{display:flex;justify-content:space-between;align-items:center;padding:25px 0;color:var(--muted);font-size:.78rem;letter-spacing:.15em;text-transform:uppercase}
+    .brand{display:flex;align-items:center;gap:9px}.brand-heart{color:var(--pink);font-size:1.1rem}.edition{border:1px solid var(--line);padding:8px 12px;border-radius:999px}
+    .hero{min-height:660px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:32px;padding:44px 0 74px}
+    .eyebrow{display:flex;align-items:center;gap:12px;color:var(--pink);font-size:.78rem;text-transform:uppercase;letter-spacing:.22em;font-weight:700}.eyebrow:before{content:"";width:30px;height:1px;background:var(--pink)}
+    h1{font-family:'Playfair Display',serif;font-size:clamp(4rem,8.2vw,7.4rem);line-height:.94;letter-spacing:-.055em;font-weight:500;margin:24px 0 26px} h1 em{color:var(--pink);font-weight:500}
+    .lead{max-width:430px;color:#e4cbd7;font-size:1.05rem;line-height:1.8;margin:0 0 30px}.lead strong{color:var(--cream);font-weight:600}
+    .date-line{display:flex;gap:12px;align-items:center;margin:0 0 28px}.date-icon{width:48px;height:48px;display:grid;place-items:center;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.035);font-size:1.3rem}.date-copy small{display:block;color:var(--muted);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}.date-copy b{font-size:1.05rem;font-weight:600}
+    .actions{display:flex;flex-wrap:wrap;gap:12px}.btn{border:0;border-radius:999px;padding:15px 21px;font:600 .95rem 'DM Sans',sans-serif;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:9px}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--pink);color:#321325;box-shadow:0 10px 35px rgba(255,143,179,.22)}.btn-primary:hover{box-shadow:0 14px 42px rgba(255,143,179,.34)}.btn-ghost{border:1px solid var(--line);color:var(--cream);background:rgba(255,255,255,.035)}
+    .art{min-height:470px;position:relative;display:grid;place-items:center}.orbit{width:min(430px,100%);aspect-ratio:1;border:1px solid rgba(255,197,214,.22);border-radius:50%;position:absolute;transform:rotate(-17deg)}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid rgba(255,197,214,.12);border-radius:50%;inset:28px}.orbit:after{inset:58px}
+    .poster{position:relative;width:min(330px,78%);aspect-ratio:.77;border-radius:180px 180px 26px 26px;background:linear-gradient(155deg,rgba(255,211,224,.22),rgba(126,44,86,.18) 45%,rgba(39,15,34,.9)),radial-gradient(circle at 50% 40%,#a64e76,#35162e 70%);border:1px solid rgba(255,223,235,.3);box-shadow:0 30px 100px rgba(0,0,0,.35);overflow:hidden;display:flex;align-items:center;justify-content:center}
+    .poster:before{content:"";position:absolute;width:72%;aspect-ratio:1;border:1px solid rgba(255,218,231,.55);border-radius:50%;top:15%;left:14%;box-shadow:0 0 0 14px rgba(255,218,231,.035),0 0 0 32px rgba(255,218,231,.025)}
+    .poster:after{content:"";position:absolute;bottom:-20%;left:5%;width:90%;height:65%;background:linear-gradient(140deg,transparent 30%,rgba(255,180,205,.13) 31%,transparent 32%),linear-gradient(35deg,transparent 45%,rgba(255,180,205,.12) 46%,transparent 47%);border-radius:50%}
+    .big-heart{font-size:clamp(7rem,17vw,11rem);line-height:1;color:#ffb0cb;filter:drop-shadow(0 10px 28px rgba(255,111,160,.28));animation:heartbeat 3s ease-in-out infinite;position:relative;z-index:1}
+    .floating{position:absolute;color:var(--pink);font-size:1.6rem;animation:float 5s ease-in-out infinite}.f1{top:12%;left:13%;font-size:1.2rem}.f2{top:19%;right:4%;animation-delay:-2s}.f3{bottom:16%;left:8%;animation-delay:-1s;font-size:1rem}.f4{bottom:10%;right:11%;animation-delay:-3s}.spark{position:absolute;color:#ffe3ed;font-size:.8rem}.s1{top:25%;left:5%}.s2{right:10%;top:38%}.s3{bottom:25%;right:6%}
+    .scroll-note{position:absolute;bottom:0;left:0;color:var(--muted);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;display:flex;align-items:center;gap:10px}.scroll-note span{display:block;height:1px;width:36px;background:var(--pink)}
+    section{padding:65px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:28px}.section-kicker{color:var(--pink);text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:700}.section-title{font-family:'Playfair Display',serif;font-weight:500;font-size:clamp(2.3rem,5vw,4rem);line-height:1.05;margin:12px 0 0;letter-spacing:-.035em}.section-note{max-width:260px;color:var(--muted);font-size:.88rem;line-height:1.7}
+    .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stop{border:1px solid var(--line);background:linear-gradient(155deg,rgba(255,255,255,.055),rgba(255,255,255,.018));border-radius:20px;padding:22px 18px;min-height:210px;position:relative;overflow:hidden}.stop:after{content:attr(data-number);position:absolute;right:12px;bottom:-20px;font-family:'Playfair Display',serif;font-size:7rem;color:rgba(255,197,214,.055);line-height:1}.stop-icon{width:42px;height:42px;display:grid;place-items:center;background:rgba(255,143,179,.11);border:1px solid rgba(255,143,179,.18);border-radius:13px;font-size:1.2rem;margin-bottom:22px}.stop-time{font-size:.72rem;color:var(--pink);letter-spacing:.1em;text-transform:uppercase}.stop h3{font-size:1.03rem;margin:8px 0 8px}.stop p{font-size:.82rem;line-height:1.65;color:var(--muted);margin:0;max-width:230px;position:relative;z-index:1}
+    .note-card{display:grid;grid-template-columns:.75fr 1.25fr;gap:30px;align-items:center;border:1px solid var(--line);border-radius:28px;padding:34px;background:linear-gradient(115deg,rgba(255,143,179,.11),rgba(255,255,255,.025));overflow:hidden;position:relative}.note-symbol{font-family:'Playfair Display',serif;font-size:clamp(4rem,10vw,8rem);color:var(--pink);text-align:center;line-height:1;opacity:.9}.note-card h2{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:500;margin:0 0 12px}.note-card p{color:#e4cbd7;line-height:1.8;margin:0;max-width:600px}.note-card p em{color:var(--pink)}
+    .rsvp{text-align:center;padding:78px 0 86px}.rsvp .section-title{margin:14px 0}.rsvp p{color:var(--muted);line-height:1.7;margin:0 auto 26px;max-width:430px}.rsvp-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.tiny{font-size:.72rem;color:#a98b9b;margin-top:24px}
+    footer{border-top:1px solid var(--line);padding:22px 0 28px;display:flex;justify-content:space-between;gap:20px;color:#a98b9b;font-size:.75rem}
+    .modal{position:fixed;inset:0;z-index:10;background:rgba(13,5,13,.78);backdrop-filter:blur(12px);display:none;place-items:center;padding:20px}.modal.show{display:grid}.modal-card{width:min(430px,100%);text-align:center;padding:36px 26px;border:1px solid rgba(255,197,214,.28);border-radius:28px;background:linear-gradient(145deg,#3c1933,#211020);box-shadow:0 25px 90px rgba(0,0,0,.4);animation:pop .35s ease-out}.modal-heart{font-size:3.2rem;animation:heartbeat 1.8s infinite}.modal h2{font:500 2.5rem 'Playfair Display',serif;margin:12px 0}.modal p{color:var(--muted);line-height:1.7}.close{margin-top:12px}
+    .confetti{position:fixed;top:-20px;z-index:11;pointer-events:none;animation:fall 3.2s linear forwards;font-size:18px}
+    @keyframes heartbeat{0%,100%{transform:scale(1)}8%{transform:scale(1.07)}16%{transform:scale(1)}24%{transform:scale(1.04)}32%{transform:scale(1)}}@keyframes float{0%,100%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(-15px) rotate(8deg)}}@keyframes pop{from{transform:translateY(14px) scale(.96);opacity:0}to{transform:translateY(0) scale(1);opacity:1}}@keyframes fall{to{transform:translateY(110vh) rotate(540deg);opacity:0}}
+    @media(max-width:760px){header{padding:18px 0}.edition{font-size:.65rem}.hero{grid-template-columns:1fr;min-height:auto;padding:48px 0 76px;gap:10px}.hero-copy{position:relative;z-index:2}.art{min-height:350px;grid-row:1}.poster{width:230px}.orbit{width:300px}h1{font-size:clamp(4rem,17vw,6.4rem);margin:20px 0}.lead{font-size:.98rem}.scroll-note{bottom:-22px}.section-head{display:block}.section-note{margin-top:14px}.timeline{grid-template-columns:repeat(2,1fr)}.stop{min-height:190px;padding:18px 15px}.note-card{grid-template-columns:1fr;gap:10px;padding:25px}.note-symbol{font-size:5rem}.rsvp{padding:60px 0}.wrap{width:min(100% - 30px,600px)}footer{font-size:.68rem}}@media(max-width:390px){.timeline{grid-template-columns:1fr}.stop{min-height:0}.stop-icon{margin-bottom:14px}.actions .btn{width:100%}.edition{display:none}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="wrap">
+    <header><div class="brand"><span class="brand-heart">♥</span><span>personal invitation</span></div><div class="edition">для самой любимой</div></header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow">маленький план на нас двоих</div>
+          <h1 id="hero-title">У нас<br>будет <em>свидание.</em></h1>
+          <p class="lead">Любимая, предлагаю на несколько часов выключить режим взрослых дел и оставить время <strong>только для нас.</strong> Немного игры, вкусная еда и прогулка без спешки.</p>
+          <div class="date-line"><div class="date-icon">♡</div><div class="date-copy"><small>Суббота · 31 октября</small><b>Встречаемся в 17:00</b></div></div>
+          <div class="actions"><button class="btn btn-primary" id="acceptBtn">Конечно, иду ♡</button><a class="btn btn-ghost" href="#plan">Посмотреть план ↓</a></div>
+        </div>
+        <div class="art" aria-label="Романтическая иллюстрация с сердцем">
+          <div class="orbit"></div><div class="poster"><div class="big-heart">♥</div></div>
+          <span class="floating f1">♡</span><span class="floating f2">♥</span><span class="floating f3">✦</span><span class="floating f4">♡</span><span class="spark s1">✧</span><span class="spark s2">✦</span><span class="spark s3">✧</span>
+        </div>
+        <div class="scroll-note"><span></span>листай, там наш план</div>
+      </section>
+      <section id="plan">
+        <div class="section-head"><div><div class="section-kicker">our little date</div><h2 class="section-title">Маршрут для<br><em style="color:var(--pink)">двоих.</em></h2></div><p class="section-note">Никакой гонки по городу. Все рядом, всё в удовольствие, а главное - мы вместе.</p></div>
+        <div class="timeline">
+          <article class="stop" data-number="01"><div class="stop-icon">☕</div><div class="stop-time">17:00 · разогрев</div><h3>Кофе и что-нибудь вкусное</h3><p>Заглянем в Surf Coffee x Sky или найдём уютное место по настроению.</p></article>
+          <article class="stop" data-number="02"><div class="stop-icon">🎱</div><div class="stop-time">потом · игра</div><h3>Бильярд в «Лидере»</h3><p>Небольшой турнир, красивые удары и право победителя немного похвастаться.</p></article>
+          <article class="stop" data-number="03"><div class="stop-icon">🍕</div><div class="stop-time">вечер · ужин</div><h3>Вкусно поедим</h3><p>Сицилия или Hello Cheese - выберем на месте, чего больше захочется.</p></article>
+          <article class="stop" data-number="04"><div class="stop-icon">🌙</div><div class="stop-time">на десерт</div><h3>Прогулка без спешки</h3><p>Немного пройтись, поболтать и сохранить этот вечер только нашим.</p></article>
+        </div>
+      </section>
+      <section>
+        <div class="note-card"><div class="note-symbol">∞</div><div><div class="section-kicker">важная часть плана</div><h2>Не место делает вечер.</h2><p>Можно выбрать самый красивый ресторан и самый лучший маршрут, но я хочу просто провести время с тобой. <em>Без суеты. Без дел. Только мы.</em></p></div></div>
+      </section>
+      <section class="rsvp" id="rsvp"><div class="section-kicker">приглашение принято?</div><h2 class="section-title">Ну что, <em style="color:var(--pink)">моя хорошая?</em></h2><p>Суббота, 17:00. Красивый вечер, вкусная еда и один очень счастливый человек рядом с тобой.</p><div class="rsvp-actions"><button class="btn btn-primary" id="yesBtn">Да, это свидание! 💌</button><button class="btn btn-ghost" id="calendarBtn">Добавить в календарь ↗</button></div><div class="tiny">P.S. Обнимашки входят в программу без доплаты.</div></section>
+    </main>
+    <footer><span>сделано с любовью ♡</span><span>31.10.2026 · 17:00</span></footer>
+  </div>
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-card"><div class="modal-heart">♥</div><h2 id="modalTitle">Ура, свидание!</h2><p>Тогда договорились. Суббота, 17:00.<br>Я уже жду этот вечер с тобой.</p><button class="btn btn-primary close" id="closeBtn">Обнимаю ♡</button></div></div>
+  <script>
+    const modal=document.getElementById('modal');
+    function celebrate(){modal.classList.add('show');document.body.style.overflow='hidden';for(let i=0;i<28;i++){const el=document.createElement('span');el.className='confetti';el.textContent=['♥','♡','✦','✧'][Math.floor(Math.random()*4)];el.style.left=Math.random()*100+'vw';el.style.animationDelay=(Math.random()*.8)+'s';el.style.fontSize=(12+Math.random()*18)+'px';el.style.color=['#ff8fb3','#ffc5d6','#fff5ed'][Math.floor(Math.random()*3)];document.body.appendChild(el);setTimeout(()=>el.remove(),4200)}}
+    function closeModal(){modal.classList.remove('show');document.body.style.overflow=''}
+    document.getElementById('acceptBtn').addEventListener('click',celebrate);document.getElementById('yesBtn').addEventListener('click',celebrate);document.getElementById('closeBtn').addEventListener('click',closeModal);modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+    document.getElementById('calendarBtn').addEventListener('click',()=>{const ics=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Date Invite//RU','CALSCALE:GREGORIAN','BEGIN:VEVENT','UID:date-night-20261031T170000@example.local','DTSTAMP:20261028T120000Z','DTSTART:20261031T140000Z','DTEND:20261031T180000Z','SUMMARY:Свидание ♡','DESCRIPTION:Кофе, бильярд в Лидере, ужин и прогулка.','LOCATION:ЖК Самолёт, Краснодар','END:VEVENT','END:VCALENDAR'].join('\r\n');const blob=new Blob([ics],{type:'text/calendar;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='nash-vecher.ics';a.click();URL.revokeObjectURL(url)});
+  </script>
+</body>
+</html>
